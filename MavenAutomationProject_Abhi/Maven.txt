@@ -1,0 +1,6 @@
+We have to move our code into git repository 
+
+
+Jenkins --- Git Repo
+
+jenkins - Pom.xml --- TestNg.xml-- TestNgScript -- Main Functionality --- Page Object model

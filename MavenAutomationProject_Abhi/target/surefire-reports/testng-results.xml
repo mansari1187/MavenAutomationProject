@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-09T12:05:32 IST" name="Suite" finished-at="2025-08-09T12:06:18 IST" duration-ms="46564">
+    <groups>
+    </groups>
+    <test started-at="2025-08-09T12:05:32 IST" name="Test" finished-at="2025-08-09T12:06:18 IST" duration-ms="46564">
+      <class name="com.test.MultiFile">
+        <test-method signature="SelectDropDown()[pri:1, instance:com.test.MultiFile@6b81ce95]" started-at="2025-08-09T12:05:50 IST" name="SelectDropDown" finished-at="2025-08-09T12:06:03 IST" duration-ms="12886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDropDown -->
+        <test-method signature="AdvanceDropDown()[pri:2, instance:com.test.MultiFile@6b81ce95]" started-at="2025-08-09T12:06:03 IST" name="AdvanceDropDown" finished-at="2025-08-09T12:06:18 IST" duration-ms="15285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvanceDropDown -->
+      </class> <!-- com.test.MultiFile -->
+      <class name="com.test.MultiTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.test.MultiTest@1aa7ecca]" started-at="2025-08-09T12:05:32 IST" name="initalization" finished-at="2025-08-09T12:05:45 IST" duration-ms="13303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="SelectDropDown()[pri:1, instance:com.test.MultiTest@1aa7ecca]" started-at="2025-08-09T12:05:45 IST" name="SelectDropDown" finished-at="2025-08-09T12:05:46 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDropDown -->
+        <test-method signature="AdvanceDropDown()[pri:2, instance:com.test.MultiTest@1aa7ecca]" started-at="2025-08-09T12:05:46 IST" name="AdvanceDropDown" finished-at="2025-08-09T12:05:49 IST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvanceDropDown -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:com.test.MultiTest@1aa7ecca]" started-at="2025-08-09T12:05:49 IST" name="Cleanup" finished-at="2025-08-09T12:05:50 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- com.test.MultiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
