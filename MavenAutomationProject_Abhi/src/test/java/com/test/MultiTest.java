@@ -68,6 +68,24 @@ public class MultiTest {
 		
 	}
 	
+	@Test(priority=3)
+	public void SelectDropDown3() throws InterruptedException
+	{
+		
+		
+		WebElement dropdownoption = driver.findElement(By.id("searchDropdownBox"));
+		
+		Select sel = new Select(dropdownoption);
+		
+		sel.selectByIndex(4);
+		
+		sel.selectByValue("search-alias=beauty");
+		
+		sel.selectByVisibleText("Deals");
+		
+		
+	}
+	
 	@AfterClass
 	public void Cleanup()
 	{
